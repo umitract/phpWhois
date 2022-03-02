@@ -19,9 +19,9 @@ provided.
 Requirements
 ------------
 
-phpWhois requires PHP 7.4 or better with OpenSSL support to work properly.
+> PHP >=5.3
 
-Without SSL support you will not be able to query domains which do not have a whois server but that have a https based whois.
+> composer require "mso/idna-convert": "~0.9"
 
 Installation
 ------------
@@ -30,7 +30,7 @@ Installation
 
 #### Latest development version
 
-`php composer.phar require "phpwhois/phpwhois":"~4.2.6"`
+`php composer.phar require "umitract/phpwhois":"~4.2.6"`
 
 
 Example usage
